@@ -21,9 +21,9 @@ customer2 = Customer.create!(first_name:"Ruben", last_name:"Hernandez")
 customer3 = Customer.create!(first_name:"Emmett", last_name:"Brown")
 customer4 = Customer.create!(first_name:"John", last_name:"Hammond")
 puts 'Creating stars...'
-#file = URI.open("https://trustmyscience.com/wp-content/uploads/2021/05/gravite-intense-etoiles-neutrons-les-rend-incroyablement-lisses-couv.jpeg")
+file = URI.open("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bakan-restaurante-mexcano-madrid-elle-4-1638198264.jpg")
 restaurant1 =Restaurant.create!(name:"Acrux", adress:"Nantes", rating: 3, customer: customer1)
-#restaurant1.photo.attach(io: file, filename: "restaurant1.png", content_type: "image/png")
+restaurant1.photo.attach(io: file, filename: "restaurant1.png", content_type: "image/png")
 
 #file = URI.open("https://www.rts.ch/2017/03/31/11/01/7657284.image?w=1280&h=720")
 restaurant2 =Restaurant.create!(name:"Cajam", adress:"Nantes", rating: 4, customer: customer2)
