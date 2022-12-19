@@ -25,41 +25,41 @@ file = URI.open("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ba
 restaurant1 =Restaurant.create!(name:"Acrux", adress:"Nantes", rating: 3, customer: customer1)
 restaurant1.photo.attach(io: file, filename: "restaurant1.png", content_type: "image/png")
 
-#file = URI.open("https://www.rts.ch/2017/03/31/11/01/7657284.image?w=1280&h=720")
+file = URI.open("https://static.wixstatic.com/media/5cecee_78de0f63516c41f99bd9fe3b71dd2b13~mv2.jpg/v1/fill/w_560,h_572,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image-empty-state.jpg")
 restaurant2 =Restaurant.create!(name:"Cajam", adress:"Nantes", rating: 4, customer: customer2)
-#restaurant2.photo.attach(io: file, filename: "restaurant2.png", content_type: "image/png")
+restaurant2.photo.attach(io: file, filename: "restaurant2.png", content_type: "image/png")
 
-#file = URI.open("https://cdn.futura-sciences.com/sources/images/actu/supernova-vie-terre.jpeg")
+file = URI.open("https://a.cdn-hotels.com/gdcs/production0/d904/1a2db549-b49d-4845-aa19-c9d72f4266c2.jpg")
 restaurant3 =Restaurant.create!(name:"Céléno", adress:"Nantes", rating:5, customer: customer3)
-#restaurant3.photo.attach(io: file, filename: "restaurant3.png", content_type: "image/png")
+restaurant3.photo.attach(io: file, filename: "restaurant3.png", content_type: "image/png")
 
-#file = URI.open("https://pbs.twimg.com/media/EUj5EVYX0AURjJK?format=jpg&name=small")
+file = URI.open("https://media.revistaad.es/photos/620cbc911db9f1841aebdf15/16:9/w_2560%2Cc_limit/portada.jpg")
 restaurant4 =Restaurant.create!(name:"Diadème", adress:"Nantes", rating: 5, customer: customer1)
-#restaurant4.photo.attach(io: file, filename: "restaurant4.png", content_type: "image/png")
+restaurant4.photo.attach(io: file, filename: "restaurant4.png", content_type: "image/png")
 
-#file = URI.open("https://www.onefm.ch/wp-content/uploads/2020/04/nasa-cover.jpg")
+file = URI.open("https://www.yosilose.com/wp-content/uploads/2022/09/papatinte3.jpg")
 restaurant5 =Restaurant.create!(name:"Electra", adress:"Nantes", rating:4, customer: customer4)
-#restaurant5.photo.attach(io: file, filename: "restaurant5.png", content_type: "image/png")
+restaurant5.photo.attach(io: file, filename: "restaurant5.png", content_type: "image/png")
 
-#file = URI.open("https://static01.nyt.com/images/2020/07/07/science/23SCI-OUTTHERE-LIGO/23SCI-OUTTHERE-LIGO-mobileMasterAt3x.jpg")
+file = URI.open("https://ingenieriademenu.com/wp-content/uploads/2022/02/letrero-restaurante.jpg")
 restaurant6 =Restaurant.create!(name:"Ferkad ", adress:"Nantes", rating:3, customer: customer4)
-#restaurant6.photo.attach(io: file, filename: "restaurant6.png", content_type: "image/png")
+restaurant6.photo.attach(io: file, filename: "restaurant6.png", content_type: "image/png")
 
-#file = URI.open("https://epsilon.aeon.co/images/78ba87e7-7198-4468-81b5-500c505d5bc8/header_essay-gettyimages-1237093074.jpg")
+file = URI.open("https://media.traveler.es/photos/620b6fa93381f6cfa2f8329a/master/w_1600%2Cc_limit/maison-russeromainricard-restaurant_51611506565_o.jpg")
 restaurant7 =Restaurant.create!(name:"Gemma", adress:"Nantes", rating:4, customer: customer2)
-#restaurant7.photo.attach(io: file, filename: "restaurant7.png", content_type: "image/png")
+restaurant7.photo.attach(io: file, filename: "restaurant7.png", content_type: "image/png")
 
-#file = URI.open("https://www.riken.jp/news-pubs-en/research-news-en/2020-research-en/RRFY20190049.jpg")
+file = URI.open("https://media.gq.com.mx/photos/6266e699a6124b05cd9e65e8/4:3/w_2663,h_1997,c_limit/restaurantes-Tulum-Grupo-Andersons.jpg")
 restaurant8 =Restaurant.create!(name:"Hydor ", adress:"Nantes", rating:5, customer: customer1)
-#star8.photo.attach(io: file, filename: "restaurant8.png", content_type: "image/png")
+star8.photo.attach(io: file, filename: "restaurant8.png", content_type: "image/png")
 
-#file = URI.open("https://imageio.forbes.com/blogs-images/startswithabang/files/2019/12/scaledown.jpg?format=jpg&width=960")
+file = URI.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSncBvyeBlWV3S165Y2SV-6WFopsYjY73kEYQ&usqp=CAU")
 restaurant9 =Restaurant.create!(name:"Izar ", adress:"Nantes", rating: 1, customer: customer3)
-#restaurant9.photo.attach(io: file, filename: "restaurant9.png", content_type: "image/png")
+restaurant9.photo.attach(io: file, filename: "restaurant9.png", content_type: "image/png")
 
-#file = URI.open("https://images.unsplash.com/photo-1484589065579-248aad0d8b13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=459&q=80")
+file = URI.open("https://eldiariony.com/wp-content/uploads/sites/2/2022/07/Restaurante-shutterstock_124542496.jpg?quality=60&strip=all&w=1200")
 restaurant10 =Restaurant.create!(name:"Jabbah", adress:"Nantes", rating: 5, customer: customer2)
-#restaurant10.photo.attach(io: file, filename: "restaurant10.png", content_type: "image/png")
+restaurant10.photo.attach(io: file, filename: "restaurant10.png", content_type: "image/png")
 
 
 puts 'Creating booking...'
