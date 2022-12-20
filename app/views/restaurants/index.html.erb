@@ -3,6 +3,7 @@
 <div class="cards-container">
   <% @restaurants.each do |restaurant| %>
     <%# #<%= link_to  star_path(star) do %>
+    <%= link_to restaurant_path(restaurant) do %>
       <div class="card" >
 
         <%# <div class="card-image"><%= cl_image_tag star.photo.key</div>  %>
@@ -16,6 +17,6 @@
         <%# <%= star.climate.downcase %>
         </div>
       </div>
-
+    <% end %>
   <% end %>
 </div>
