@@ -1,22 +1,2 @@
 <h1>Voici tous les restaurants</h1>
 
-<div class="cards-container">
-  <% @restaurants.each do |restaurant| %>
-    <%# #<%= link_to  star_path(star) do %>
-    <%= link_to restaurant_path(restaurant) do %>
-      <div class="card" >
-
-        <%# <div class="card-image"><%= cl_image_tag star.photo.key</div>  %>
-        <div class="card-description">
-        <div id= "card-name">
-          <p><%=  restaurant.name %></p>
-          <p><%= restaurant.adress %></p>
-        </div>
-          <p><%= restaurant.rating %>🌟</p>
-        <%# <%= star.capacity %>
-        <%# <%= star.climate.downcase %>
-        </div>
-      </div>
-    <% end %>
-  <% end %>
-</div>
